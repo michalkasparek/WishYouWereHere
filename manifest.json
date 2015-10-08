@@ -6,7 +6,7 @@
 
 "description":              "Nezemřel ten, kdo žije v našich prohlížečích.",
 
-"version":                  "1.0.1",
+"version":                  "1.0.3",
 
 "browser_action": { 
 
@@ -25,8 +25,13 @@
   },
   
 {
-    "matches": ["http://zpravy.idnes.cz/*", "http://usti.idnes.cz/*", "http://praha.idnes.cz/*", "http://brno.idnes.cz/*"],
+    "matches": ["http://*.idnes.cz/*"],
     "js": ["idnes.js"]
+  },
+  
+  {
+    "matches": ["http://*.lidovky.cz/*"],
+    "js": ["lidovky.js"]
   },
   
   {

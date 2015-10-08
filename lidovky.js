@@ -5,5 +5,5 @@ var displayHavel = Havel[Math.floor(Math.random() *Havel.length)];
 var div = document.createElement ("div");
 div.innerHTML = displayHavel;
 
-var iDnes = document.getElementById("art-text");
-iDnes.appendChild(div);
+var lidovky = document.getElementById("art-text");
+lidovky.appendChild(div);

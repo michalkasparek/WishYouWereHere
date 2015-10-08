@@ -1,4 +1,4 @@
- var Havel = ["<ul class=\"headlines\"><li>Exprezident Václav Havel vyzval k boření společenských a politických zdí.</li></ul>"];
+ var Havel = ["<ul class=\"headlines\"><li>Václav Havel vyzývá k boření společenských a politických zdí.</li></ul>", "<ul class=\"headlines\"><li>Jako mediátor sporu se nabídl exprezident Václav Havel.</li></ul>", "<ul class=\"headlines\"><li>Podle Václava Havla musíme této výzvě čelit s pokorou i sebevědomím.</li></ul>"];
 
 var displayHavel = Havel[Math.floor(Math.random() *Havel.length)]; 
 
